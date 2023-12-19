@@ -1,0 +1,39 @@
+# Dependency directories
+/node_modules
+
+# Build files
+/build
+/dist
+
+# Environment files
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.log
+*.pid
+*.seed
+*.swp
+*.out
+*.nyc_output/
+.coverage/
+.cache/
+*.pnp.js
+.pnp.js
+yarn-error.log
