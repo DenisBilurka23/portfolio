@@ -35,9 +35,11 @@ const About = ({ aboutRef, isMobile }) => {
                 <SkillItem>JavaScript</SkillItem>
                 <SkillItem>TypeScript</SkillItem>
                 <SkillItem>React</SkillItem>
+                <SkillItem>Next.js</SkillItem>
                 <SkillItem>Redux</SkillItem>
                 <SkillItem>Vue.js</SkillItem>
                 <SkillItem>Vuex</SkillItem>
+                <SkillItem>Nuxt.js</SkillItem>
               </Skill>
               <Skill>
                 <SkillTitle>Back End</SkillTitle>

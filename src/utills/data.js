@@ -1,13 +1,24 @@
-import ChatThumbnail from "../assets/images/chat.png";
-import ClothesStoreThumbnail from "../assets/images/clothes-store.png";
-import TableThumbnail from "../assets/images/table.png";
+import Chat from "../assets/images/chat.png";
+import ClothesStore from "../assets/images/clothes-store.png";
+import Table from "../assets/images/table.png";
+import TorontoSizzle from "../assets/images/toronto-sizzle.png";
 
 export const projectsData = [
+    {
+        header:'Online restaurant',
+        sub: 'Toronto Sizzle Online Restaurant',
+        desc: 'An online restaurant built with Next.js and TypeScript, featuring a modern and interactive user interface. Explore a diverse menu, place orders, and experience a seamless online dining experience. The application integrates with Stripe for secure and convenient payment processing. Fully adaptive design ensures a smooth experience across all resolutions. Dive into the world of culinary delights with Toronto Sizzle!',
+        src: TorontoSizzle,
+        demoLink: 'https://toronto-sizzle.netlify.app/',
+        codeLink: 'https://github.com/DenisBilurka23/online-restaurant',
+        tech: 'Next.js, TypeScript, Tailwind',
+        date: '2024'
+    },
     {
         header:'Chat',
         sub: 'Full Stack Chat',
         desc: 'A Full Stack Chat application. The front-end is built using React, and the back-end is powered by Node.js with a MongoDB database. Real-time communication is made possible through WebSockets, ensuring instant message delivery. JWT is employed for secure user authentication, providing a seamless and protected chat experience.',
-        src: ChatThumbnail,
+        src: Chat,
         codeLink: 'https://github.com/DenisBilurka23/fullstack-chat',
         tech: 'React.js, Node.js, Material UI, Express, MongoDB, WebSocket, JWT',
         date: '2023'
@@ -16,7 +27,7 @@ export const projectsData = [
         header:'Clothing Store',
         sub: 'Fully adaptive clothing store',
         desc: 'A Front-end clothing store employing SCSS, JS, and HTML, with a fully adaptive pixel-perfect layout ensuring a seamless user experience across diverse devices – including desktops, tablets, and mobile',
-        src: ClothesStoreThumbnail,
+        src: ClothesStore,
         demoLink: 'https://denisbilurka23.github.io/CF-CLOTHING/',
         codeLink: 'https://github.com/DenisBilurka23/CF-CLOTHING',
         tech: 'SCSS, CSS, HTML, JS',
@@ -26,7 +37,7 @@ export const projectsData = [
         header:'Table',
         sub: 'Customize Table Application',
         desc: 'A React-powered table app with TypeScript support, highlighting seamless pagination, customizable page sizes, and easy row filtering through a simple search. Customize your view with column adjustments, sort fields effortlessly, and switch between light and dark themes for a tailored visual experience',
-        src: TableThumbnail,
+        src: Table,
         codeLink: 'https://github.com/DenisBilurka23/Table',
         tech: 'React, Material UI, TypeScript',
         date: '2023'
