@@ -43,9 +43,9 @@ const Footer = () => {
       </Center>
       <Bottom>
         <Section>
-          <Span>Denys Biliurka</Span>
+          <Span>Denis Bilurka</Span>
           <Span>Toronto, ON</Span>
-          <Span>Ⓒ 2023</Span>
+          <Span>Ⓒ 2024</Span>
         </Section>
 
         <Section>

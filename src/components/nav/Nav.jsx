@@ -28,7 +28,7 @@ const Nav = ({ top, projectsRef, experienceRef, aboutRef }) => {
     >
       <NavInner top={top}>
         <NavStart>
-          <NavText>Denys Biliurka</NavText>
+          <NavText>Denis Bilurka</NavText>
         </NavStart>
         <NavCenter/>
         <NavEnd>

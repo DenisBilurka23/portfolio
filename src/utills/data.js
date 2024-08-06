@@ -6,12 +6,12 @@ import TorontoSizzle from "../assets/images/toronto-sizzle.png";
 export const projectsData = [
     {
         header:'Online restaurant',
-        sub: 'Toronto Sizzle Online Restaurant',
+        sub: 'Soup & Borsch Online Restaurant',
         desc: 'An online restaurant built with Next.js and TypeScript, featuring a modern and interactive user interface. Explore a diverse menu, place orders, and experience a seamless online dining experience. The application integrates with Stripe for secure and convenient payment processing. Fully adaptive design ensures a smooth experience across all resolutions. Dive into the world of culinary delights with Toronto Sizzle!',
         src: TorontoSizzle,
-        demoLink: 'https://toronto-sizzle.netlify.app/',
-        codeLink: 'https://github.com/DenisBilurka23/online-restaurant',
-        tech: 'Next.js, TypeScript, Tailwind',
+        demoLink: 'https://soup-and-borsch.netlify.app/en',
+        codeLink: 'https://github.com/DenisBilurka23/SoupAndBorsch',
+        tech: 'Next.js, TypeScript, Tailwind, i18n, MongoDB',
         date: '2024'
     },
     {

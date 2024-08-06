@@ -25,7 +25,7 @@ const About = ({ aboutRef, isMobile }) => {
         <SectionContainer>
           <RightContainer>
             <Description>
-              Hi, I'm Denys, enthusiastic Full Stack developer with experience in developing single-page apps. Proficient with React, Vue.js and Node.js. Team player with good communication skills, responsible, flexible, and self-motivated. Passionate about learning and development with a desire to apply skills to an interesting project. Eager to tackle complex problems and continue to find ways to improve their solutions
+              Hi, I'm Denis, enthusiastic Front-End Developer with experience in developing single-page apps. Proficient with React, Vue.js and Node.js. Team player with good communication skills, responsible, flexible, and self-motivated. Passionate about learning and development with a desire to apply skills to an interesting project. Eager to tackle complex problems and continue to find ways to improve their solutions
             </Description>
             <Skills>
               <Skill>

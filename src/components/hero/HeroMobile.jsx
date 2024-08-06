@@ -73,8 +73,8 @@ const Hero = ({ setTop }) => {
         dataStyles={{ display: 'none' }}
       />
       <HeaderContainer>
-        <Header>Denys Biliurka</Header>
-        <SubHeader>Full Stack Developer</SubHeader>
+        <Header>Denis Bilurka</Header>
+        <SubHeader>Front-End Developer</SubHeader>
       </HeaderContainer>
       <Gradient />
       <HeroSceneMobile mouseX={mouseX} mouseY={mouseY} />

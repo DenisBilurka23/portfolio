@@ -47,11 +47,11 @@ const InnerContainer = ({ mouseX, mouseY }) => {
       <group position={[0, 35, 0]} scale={viewport.width / 10.5}>
         <group>
           <HeroText
-            text="Denys Biliurka"
+            text="Denis Bilurka"
             position={[-37, 0, 20]}
           />
           <HeroText
-            text="Full Stack Developer."
+            text="Front-End Developer."
             position={[0, -14, 20]}
           />
         </group>
