@@ -4,24 +4,28 @@ import Header from '../reusable/Header';
 import styled from 'styled-components';
 import {motion} from "framer-motion";
 
-const Experience = ({ portfolioRef, data }) => {
-  return (
-    <Container>
-      <Inner>
-        <Header title="Experience" headerRef={portfolioRef} />
-        <TopDivider />
-          <Company>
-              <p>Aimprosoft</p>
-              <p>Aug 2021 - Dec 2023</p>
-          </Company>
-        <Feed>
-          {data.map(({header, desc, tech, date}) => (
-              <ExperienceSection header={header} desc={desc} tech={tech} date={date}/>
-          ))}
-        </Feed>
-      </Inner>
-    </Container>
-  );
+const Experience = ({portfolioRef, data}) => {
+    return (
+        <Container>
+            <Inner>
+                <Header title="Experience" headerRef={portfolioRef}/>
+                <TopDivider/>
+                {data.map(({location, name, projects}) => (
+                    <>
+                        <Company>
+                            <p>{name}{location ? ` | ${location}` : ''}</p>
+                            <p>Jan 2024 - May 2024</p>
+                        </Company>
+                        <Feed>
+                            {projects.map(({header, desc, tech, date}) => (
+                                <ExperienceSection header={header} desc={desc} tech={tech} date={date}/>
+                            ))}
+                        </Feed>
+                    </>
+                ))}
+            </Inner>
+        </Container>
+    );
 };
 
 const Container = styled.div`
@@ -41,18 +45,18 @@ const Container = styled.div`
 
 const Inner = styled.div`
   width: 100%;
-  max-width: ${({ theme }) => theme.maxWidth};
+  max-width: ${({theme}) => theme.maxWidth};
 `;
 
 const Divider = styled.div`
   width: 100%;
   height: 1px;
-  border-bottom: 1px solid ${({ theme }) => theme.portfolio.line};
+  border-bottom: 1px solid ${({theme}) => theme.portfolio.line};
   margin: 60px 0 0 0;
 `;
 
 const TopDivider = styled(Divider)`
-  margin: 60px 0 60px 0;
+  margin-top: 60px;
 `;
 
 const Feed = styled.div`
@@ -65,15 +69,17 @@ const Feed = styled.div`
 const Company = styled(motion.div)`
   p:first-child {
     font-size: 3rem;
-    font-family: ${({ theme }) => theme.main.fontFamily.bold};
+    font-family: ${({theme}) => theme.main.fontFamily.bold};
   }
+
   p:last-child {
     font-size: 2rem;
   }
-  margin-bottom: 60px;
+
+  margin: 60px 0;
   display: flex;
   justify-content: space-between;
-  
+
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     font-size: 2.4rem;

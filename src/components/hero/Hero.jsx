@@ -7,7 +7,7 @@ import useMeasure from 'react-use-measure';
 
 import HeroScene from '../../three/hero/HeroScene';
 
-import Bg from '../../assets/images/Untitled-2.jpg';
+import Bg from '../../assets/images/background.jpg';
 
 import styled from 'styled-components';
 
