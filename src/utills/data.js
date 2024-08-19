@@ -53,12 +53,14 @@ export const projectsData = [{
 export const experienceData = [{
     location: 'Toronto, ON',
     name: 'Vosyn',
+    date: 'Jan 2024 - May 2024',
     projects: [{
         header: 'AI startup',
         desc: 'This Canadian AI startup, based in Toronto, ON, focuses on revolutionizing live translation for digital content. The React-based application integrates advanced AI features to deliver real-time translations across various platforms like YouTube and Netflix. The AI technology ensures that translations are not only accurate but also maintain the original voice quality and intonation, providing users with a seamless and natural viewing experience. The application caters to a global audience, enabling them to enjoy content in their preferred language without compromising the authenticity of the original material.',
         tech: 'React, React Router, Redux-Thunk, Redux-Toolkit, Material-UI, Git, ESLint',
     }]}, {
     name: 'Aimprosoft',
+    date: 'Aug 2021 – Jul 2024',
     projects: [{
         header: 'IoT Smart Home',
         desc: 'The system that manages different user devices and connecting them into one ecosystem. The front-end UI to manage smart devices inside the house was implemented. A user can see how much energy was spent, set a timer for devices, etc. Platform provides users with advanced services for smart home appliances control and embedded software for the in-house manufactured device.',

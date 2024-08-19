@@ -10,18 +10,18 @@ const Experience = ({portfolioRef, data}) => {
             <Inner>
                 <Header title="Experience" headerRef={portfolioRef}/>
                 <TopDivider/>
-                {data.map(({location, name, projects}) => (
-                    <>
+                {data.map(({location, name, projects, date}) => (
+                    <div key={name}>
                         <Company>
                             <p>{name}{location ? ` | ${location}` : ''}</p>
-                            <p>Jan 2024 - May 2024</p>
+                            <p>{date}</p>
                         </Company>
                         <Feed>
                             {projects.map(({header, desc, tech, date}) => (
-                                <ExperienceSection header={header} desc={desc} tech={tech} date={date}/>
+                                <ExperienceSection key={header} header={header} desc={desc} tech={tech} date={date}/>
                             ))}
                         </Feed>
-                    </>
+                    </div>
                 ))}
             </Inner>
         </Container>
