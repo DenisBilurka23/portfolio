@@ -3,6 +3,7 @@ import ClothesStore from "../assets/images/clothes-store.png";
 import Table from "../assets/images/table.png";
 import SoupBorscht from "../assets/images/soup-and-borscht.png";
 import BakeryStore from "../assets/images/bakery-store.png";
+import Courses from "../assets/images/courses.png";
 
 export const projectsData = [{
     header: 'Online restaurant',
@@ -12,6 +13,15 @@ export const projectsData = [{
     demoLink: 'https://soup-and-borsch.netlify.app/en',
     codeLink: 'https://github.com/DenisBilurka23/SoupAndBorsch',
     tech: 'Next.js, TypeScript, Tailwind, i18n, MongoDB',
+    date: '2024'
+}, {
+    header: 'Online Courses',
+    sub: 'Online IT Courses Application',
+    desc: 'A dynamic React application designed for online IT courses. This application features a fully responsive design that adapts seamlessly to desktop, tablet, and mobile screens. Includes comprehensive form validation and submission handling for user interactions, ensuring a smooth and efficient user experience.',
+    src: Courses,
+    demoLink: 'https://courses-onine.netlify.app',
+    codeLink: 'https://github.com/DenisBilurka23/courses-app',
+    tech: 'React, React Hook Form',
     date: '2024'
 }, {
     header: 'Bakery store',
