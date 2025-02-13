@@ -44,8 +44,7 @@ const Footer = () => {
       <Bottom>
         <Section>
           <Span>Denis Bilurka</Span>
-          <Span>Belgium</Span>
-          <Span>Ⓒ 2024</Span>
+          <Span>Ⓒ 2025</Span>
         </Section>
 
         <Section>

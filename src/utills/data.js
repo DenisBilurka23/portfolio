@@ -1,9 +1,9 @@
 import Chat from "../assets/images/chat.png";
 import ClothesStore from "../assets/images/clothes-store.png";
-import Table from "../assets/images/table.png";
 import SoupBorscht from "../assets/images/soup-and-borscht.png";
 import BakeryStore from "../assets/images/bakery-store.png";
 import Courses from "../assets/images/courses.png";
+import CurrencyConverter from "../assets/images/currency-exchange.png";
 
 export const projectsData = [{
     header: 'Online restaurant',
@@ -41,6 +41,15 @@ export const projectsData = [{
     tech: 'React.js, Node.js, Material UI, Express, MongoDB, WebSocket, JWT',
     date: '2023'
 }, {
+    header: 'Currency Converter',
+    sub: 'Currency Converter with Bank API',
+    desc: 'A Vue.js application that allows users to convert between different currencies using real-time exchange rates from a bank API. Built with Vue.js, Pinia for state management, and Vuetify for the UI, this app provides a seamless user experience with real-time updates on currency rates. The app supports dynamic selection of currencies and calculates conversions with the latest exchange rates.',
+    src: CurrencyConverter,
+    demoLink: 'https://currency-monitor.netlify.app',
+    codeLink: 'https://github.com/DenisBilurka23/currency-exchange',
+    tech: 'Vue.js, Pinia, Vuetify',
+    date: '2024'
+}, {
     header: 'Clothing Store',
     sub: 'Fully adaptive clothing store',
     desc: 'A Front-end clothing store employing SCSS, JS, and HTML, with a fully adaptive pixel-perfect layout ensuring a seamless user experience across diverse devices – including desktops, tablets, and mobile',
@@ -49,14 +58,6 @@ export const projectsData = [{
     codeLink: 'https://github.com/DenisBilurka23/CF-CLOTHING',
     tech: 'SCSS, CSS, HTML, JS',
     date: '2021'
-}, {
-    header: 'Table',
-    sub: 'Customize Table Application',
-    desc: 'A React-powered table app with TypeScript support, highlighting seamless pagination, customizable page sizes, and easy row filtering through a simple search. Customize your view with column adjustments, sort fields effortlessly, and switch between light and dark themes for a tailored visual experience',
-    src: Table,
-    codeLink: 'https://github.com/DenisBilurka23/Table',
-    tech: 'React, Material UI, TypeScript',
-    date: '2023'
 }]
 
 
