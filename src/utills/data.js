@@ -61,32 +61,47 @@ export const projectsData = [{
 }]
 
 
-export const experienceData = [{
-    location: 'Toronto, ON',
-    name: 'Vosyn',
-    date: 'Jan 2024 - May 2024',
-    projects: [{
-        header: 'AI startup',
-        desc: 'This Canadian AI startup, based in Toronto, ON, focuses on revolutionizing live translation for digital content. The React-based application integrates advanced AI features to deliver real-time translations across various platforms like YouTube and Netflix. The AI technology ensures that translations are not only accurate but also maintain the original voice quality and intonation, providing users with a seamless and natural viewing experience. The application caters to a global audience, enabling them to enjoy content in their preferred language without compromising the authenticity of the original material.',
-        tech: 'React, React Router, Redux-Thunk, Redux-Toolkit, Material-UI, Git, ESLint',
-    }]}, {
-    name: 'Aimprosoft',
-    date: 'Aug 2021 – Jul 2024',
-    projects: [{
-        header: 'IoT Smart Home',
-        desc: 'The system that manages different user devices and connecting them into one ecosystem. The front-end UI to manage smart devices inside the house was implemented. A user can see how much energy was spent, set a timer for devices, etc. Platform provides users with advanced services for smart home appliances control and embedded software for the in-house manufactured device.',
-        tech: 'React, Saga, React Router, Redux-Thunk, Redux-Toolkit, Material-UI, TypeScript, Lodash, Git, ESLint',
+export const experienceData = [
+    {
+        name: 'Centum-D',
+        date: 'Oct 2024 – Current',
+        projects: [{
+            header: 'Plumber Store',
+            desc: 'A plumbing store built with Next.js, offering products across multiple regional branches and featuring localization through i18n to provide an optimized shopping experience for users in different regions and languages',
+            tech: 'Next.js, React Query, Redux, i18n, Tailwind CSS, TypeScript, Git',
+        }, {
+            header: 'Streamdiver',
+            desc: 'Video platform Streamdiver is a self-organizing video platform designed for media management. It eliminates the need for traditional file structuring by automatically analyzing, indexing, and organizing video assets.',
+            tech: 'Vue.js, Bootstrap, ES6, Pinia, Axios, Git, Bitbucket, Trello, Figma.',
+        }]
+    },
+    {
+        location: 'Toronto, ON',
+        name: 'Vosyn',
+        date: 'Jan 2024 - May 2024',
+        projects: [{
+            header: 'AI startup',
+            desc: 'This Canadian AI startup, based in Toronto, ON, focuses on revolutionizing live translation for digital content. The React-based application integrates advanced AI features to deliver real-time translations across various platforms like YouTube and Netflix. The AI technology ensures that translations are not only accurate but also maintain the original voice quality and intonation, providing users with a seamless and natural viewing experience. The application caters to a global audience, enabling them to enjoy content in their preferred language without compromising the authenticity of the original material.',
+            tech: 'React, React Router, Redux-Thunk, Redux-Toolkit, Material-UI, Git, ESLint',
+        }]
     }, {
-        header: 'Fressnapf',
-        desc: 'Europe\'s largest pet supply store with many related services such as pet supplies, a veterinary clinic, a pet care salon, pet adoption, and different suggestion services to help people find the perfect pet. Core technologies: SAP Hybris, WordPress, Vue.js with Nuxt.js. During the project a new Marketplace design was launched, the checkout flow was fully rebuilt, and the Pet Grooming Salon service was introduced. The new pet adoption service helps people to decide what kind of pet they want and find the nearest adoption center on the map',
-        tech: 'Vue.js, Nuxt.js, Vuex, Axios, Swiper, ESLint, Git, Bitbucket, Jira, Swagger, Figma, Hybris',
-    }, {
-        header: 'Edge Server health monitoring portal for Tele2',
-        desc: 'Server health monitoring portal with reporting and provisioning abilities narrowly focused on the telecom niche. It is rich in features and mobile adaptive. An admin panel for data tracking is anchored to time zones and gives the possibility to generate reports. Developed the solution that consists of several parts, where implemented UI and web service (WS) collaboration. The server healthcare monitoring system collects data from agents and sends it to the aggregation server, from where it is displayed in user-friendly charts, reports, events, etc., and puts it on a monitoring dashboard. The full scope of information is available on each server there.',
-        tech: 'ES6, ECharts, jQuery',
-    }, {
-        header: 'Marketing platform',
-        desc: 'The US platform provides financial data, articles, learning materials, notifications, charts, etc. to subscribed users. The app provides custom logic for subscriptions and users management. Partially uses a modular structure, where each module implements its functionality. Implements connections between multiple third-party services. It has a set of financial tools that helps users to better understand and make the right decisions while working in the financial markets',
-        tech: ' React, Git',
+        name: 'Aimprosoft',
+        date: 'Aug 2021 – Jul 2024',
+        projects: [{
+            header: 'IoT Smart Home',
+            desc: 'The system that manages different user devices and connecting them into one ecosystem. The front-end UI to manage smart devices inside the house was implemented. A user can see how much energy was spent, set a timer for devices, etc. Platform provides users with advanced services for smart home appliances control and embedded software for the in-house manufactured device.',
+            tech: 'React, Saga, React Router, Redux-Thunk, Redux-Toolkit, Material-UI, TypeScript, Lodash, Git, ESLint',
+        }, {
+            header: 'Fressnapf',
+            desc: 'Europe\'s largest pet supply store with many related services such as pet supplies, a veterinary clinic, a pet care salon, pet adoption, and different suggestion services to help people find the perfect pet. Core technologies: SAP Hybris, WordPress, Vue.js with Nuxt.js. During the project a new Marketplace design was launched, the checkout flow was fully rebuilt, and the Pet Grooming Salon service was introduced. The new pet adoption service helps people to decide what kind of pet they want and find the nearest adoption center on the map',
+            tech: 'Vue.js, Nuxt.js, Vuex, Axios, Swiper, ESLint, Git, Bitbucket, Jira, Swagger, Figma, Hybris',
+        }, {
+            header: 'Edge Server health monitoring portal for Tele2',
+            desc: 'Server health monitoring portal with reporting and provisioning abilities narrowly focused on the telecom niche. It is rich in features and mobile adaptive. An admin panel for data tracking is anchored to time zones and gives the possibility to generate reports. Developed the solution that consists of several parts, where implemented UI and web service (WS) collaboration. The server healthcare monitoring system collects data from agents and sends it to the aggregation server, from where it is displayed in user-friendly charts, reports, events, etc., and puts it on a monitoring dashboard. The full scope of information is available on each server there.',
+            tech: 'ES6, ECharts, jQuery',
+        }, {
+            header: 'Marketing platform',
+            desc: 'The US platform provides financial data, articles, learning materials, notifications, charts, etc. to subscribed users. The app provides custom logic for subscriptions and users management. Partially uses a modular structure, where each module implements its functionality. Implements connections between multiple third-party services. It has a set of financial tools that helps users to better understand and make the right decisions while working in the financial markets',
+            tech: ' React, Git',
+        }]
     }]
-}]
